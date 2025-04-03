@@ -1,0 +1,45 @@
+
+        body { background-color: #f4f4f4; }
+        .navbar-custom { background-color: #004d00; padding: 10px; }
+
+        .btn-custom { background-color: #7AC142; color: white; font-weight: bold; border: none; width: 100%; }
+
+        .btn-custom:hover { background-color: #5e9c32; }
+
+        .section { display: none; } 
+
+        .active { display: block; } 
+
+        .menu-container { display: flex; justify-content: space-between; align-items: center; }
+
+        .menu-btn { background: none; border: none; font-size: 24px; color: white; cursor: pointer; }
+
+        .sidebar-buttons { display: flex; flex-direction: column; gap: 10px; }
+
+        .image-container img { width: 100%; height: auto; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+
+        .footer {
+    background-color: #004d00;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    position: fixed; 
+    bottom: 0;       
+    width: 100%; 
+        } 
+        .header { background-color: #004d00; color: white; text-align: center; padding: 10px; font-size: 20px; font-weight: bold; }
+        .highlight { background-color: #90ee90; padding: 5px; border-radius: 5px; }
+        .imagem4 {.container {
+            display: flex;
+            align-items: center;
+            gap: 20px; 
+        }
+        .texto {
+            flex: 1; 
+        }}
+        .imagem img {
+            max-width: 400px; 
+            height: auto;
+            border-radius: 5px; 
+        }
+ 

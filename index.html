@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bionatureza</title>
+</head>
+<body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style></style>
+<link rel="stylesheet" href="style.css">
+</head>
+    <div id="app">
+        <!-- Tela de Login -->
+        <div id="loginPage" class="container d-flex justify-content-center align-items-center vh-100">
+            <div class="card p-4 shadow-sm" style="width: 350px;">
+                <div class="text-center mb-3">
+                    <div class="bg-success" style="height: 30px; width: 100%;"></div>
+                    <h4 class="mt-3 text-secondary">Faça seu login</h4>
+                </div>
+                <form id="loginForm">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Seu e-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Sua senha</label>
+                        <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+                    </div>
+                    <button type="submit" class="btn btn-success w-100">Entrar</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Página Principal -->
+        <div id="homePage" class="section">
+            <div class="header">🌿 BIONATUREZA</div>
+
+            <div class="container mt-4">
+                <h2 class="fw-bold">VISÃO GERAL</h2>
+                <p>
+                    A Floresta Amazônica é a maior floresta equatorial do mundo, com área de 6,7 milhões de km², distribuídos por nove países. Sua maior parcela, quase 62% de sua extensão, fica no Brasil. Ela é considerada a maior floresta tropical do mundo e concentra enorme biodiversidade, com cerca de 2500 espécies de árvores e de 30 mil espécies de plantas. A floresta amazônica é tema de discussões e financiamentos internacionais, especialmente pela sua importância na regulação da climática global.
+                </p>
+
+                <div class="row">
+                    <!-- Coluna com texto -->
+                    <div class="col-md-8">
+                        <p>
+                            A Floresta Amazônica desempenha um papel crucial na absorção de carbono, ajudando a mitigar os efeitos das mudanças climáticas.
+                        </p>
+                    </div>
+
+                    <!-- Coluna com botões -->
+                    <div class="col-md-4 sidebar-buttons">
+                        <button class="btn btn-custom" id="btnCaracteristicas">CARACTERÍSTICAS</button>
+                        <button class="btn btn-custom" id="btnBiodiversidade">BIODIVERSIDADE</button>
+                        <button class="btn btn-custom" id="btnAmeacas">AMEAÇAS AMBIENTAIS</button>
+                    
+                    </div>
+                </div>
+
+                <!-- Imagens -->
+                <div class="row mt-4">
+                    <div class="col-md-4 image-container">
+                        <img src="floresta amazonica.webp" alt="Imagem da Floresta Amazônica">
+                    </div>
+                    <div class="col-md-4 image-container">
+                        <img src="rio floresta amazonica.jpg" alt="Rio na Floresta Amazônica">
+                    </div>
+                    <div class="col-md-4 image-container">
+                        <img src="vegetação floresta.webp" alt="Vegetação Amazônica">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Página Características -->
+        <div id="caracteristicasPage" class="section">
+            <div class="header">🌿 BIONATUREZA - CARACTERÍSTICAS</div>
+            <div class="container mt-4">
+                <h2 class="fw-bold">CARACTERÍSTICAS</h2>
+                <div class="highlight mb-3">
+                    <strong>LOCALIZAÇÃO</strong>
+                    <p>A floresta amazônica localiza-se no norte da América do Sul, abrangendo diversos países.</p>
+                </div>
+                <div class="highlight mb-3">
+                    <strong>CLIMA</strong>
+                    <p>A floresta amazônica apresenta clima equatorial, caracterizado por temperaturas elevadas e umidade alta.</p>
+                </div>
+                <div class="highlight mb-3">
+                    <strong>SOLO</strong>
+                    <p>O solo da floresta amazônica é considerado pobre em nutrientes, mas a decomposição da matéria orgânica o enriquece.</p>
+                </div>
+                <div class="highlight mb-3">
+                    <strong>FAUNA & FLORA</strong>
+                    <p>A floresta abriga diversas espécies de animais e plantas, incluindo jaguatiricas, macacos e árvores de grande porte.</p>
+                </div>
+                <button class="btn btn-danger" id="btnVoltar">Voltar</button>
+            </div>
+        </div>
+<!-- Página Biodiversidade -->
+<div id="biodiversidadePage" class="section">
+    <div class="header">🌿 BIONATUREZA - BIODIVERSIDADE</div>
+    <div class="container mt-4">
+        <h2 class="fw-bold">BIODIVERSIDADE</h2>
+        <p>
+            O termo <span class="highlight">biodiversidade</span>, ou diversidade biológica, descreve a riqueza e a variedade do mundo natural.
+            As plantas, os animais e os microrganismos fornecem alimentos, remédios e são parte da matéria-prima industrial consumida pelo ser humano.
+        </p>
+        <p>
+            A diversidade biológica está presente em todo lugar: no interior dos desertos, nas florestas e nos fundos dos oceanos.
+            No entanto, sua distribuição não é homogênea: as florestas tropicais têm a maior diversidade, enquanto as regiões polares são as menos diversas.
+        </p>
+
+        <!-- Imagens -->
+        <div class="row mt-4">
+            <div class="col-md-6 image-container">
+                <img src="foto arara.jpg" alt="Araras na floresta">
+            </div>
+            <div class="col-md-6 image-container">
+                <img src="paisagem.jpg" alt="Paisagem amazônica">
+            </div>
+        </div>
+
+        <button class="btn btn-danger mt-3" id="btnVoltarBiodiversidade">Voltar</button>
+    </div>
+</div>
+<div id="ameacasPage" class="section">
+    <div class="header">🌿 BIONATUREZA - AMEAÇAS AMBIENTAIS</div>
+    <div class="container mt-4">
+        <h2 class="fw-bold">AMEAÇAS AMBIENTAIS</h2>
+        <ul>
+            <li><strong>Desmatamento:</strong> Expansão agrícola e extração ilegal de madeira reduzem a floresta e aumentam as emissões de carbono.</li>
+            <li><strong>Queimadas:</strong> Usadas para limpar terrenos, elas geram poluição e destruição de habitats.</li>
+            <li><strong>Mineração Ilegal:</strong> A exploração de recursos minerais contamina rios e destrói a floresta.</li>
+            <li><strong>Expansão Agropecuária:</strong> A demanda por produtos agrícolas leva ao desmatamento e degradação do solo.</li>
+            <li><strong>Mudanças Climáticas:</strong> Alterações no clima podem prejudicar a regeneração da floresta.</li>
+        </ul>
+          <!-- Imagens -->
+          <div class="imagem4">
+            <div class="col-md-6 image-container">
+                <img src="desmatamento.webp" alt="Queima">
+            </div>
+        </div>
+            
+            
+        
+
+        <button class="btn btn-danger" id="btnVoltarAmeacas">Voltar</button>
+    </div>
+</div>
+
+ <!-- Rodapé -->
+ <div class="footer">
+    <p>Fale conosco: Whatsapp 495532876</p>
+    <p2>Instagram: Bionatureza.oficial</p2>
+    
+</div>
+</div>
+<script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+        document.getElementById("loginPage").classList.add("d-none");
+        document.getElementById("homePage").classList.add("active");
+    });
+
+    function showSection(sectionId) {
+        document.querySelectorAll(".section").forEach(section => {
+            section.classList.remove("active");
+        });
+        document.getElementById(sectionId).classList.add("active");
+    }
+
+    document.getElementById("btnCaracteristicas").addEventListener("click", function() {
+        showSection("caracteristicasPage");
+    });
+
+    document.getElementById("btnBiodiversidade").addEventListener("click", function() {
+        showSection("biodiversidadePage");
+    });
+
+    document.getElementById("btnAmeacas").addEventListener("click", function() {
+        showSection("ameacasPage");
+    });
+
+    document.getElementById("btnVoltar").addEventListener("click", function() {
+        showSection("homePage");
+    });
+
+    document.getElementById("btnVoltarBiodiversidade").addEventListener("click", function() {
+        showSection("homePage");
+    });
+
+    document.getElementById("btnVoltarAmeacas").addEventListener("click", function() {
+        showSection("homePage");
+    });
+
+    document.addEventListener("DOMContentLoaded", function() {
+        showSection("homePage");
+    });
+</script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
