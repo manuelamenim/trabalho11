@@ -27,7 +27,9 @@
     bottom: 0;       
     width: 100%; 
         } 
-        .header { background-color: #004d00; color: white; text-align: center; padding: 10px; font-size: 20px; font-weight: bold; }
+        .header { background-color: #004d00; color: white; display: flex;  align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px; text-align: center; font-size: 20px; font-weight: bold; }
         .logo {
             font-size: 24px;
             font-weight: bold;
