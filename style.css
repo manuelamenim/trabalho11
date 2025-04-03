@@ -28,6 +28,15 @@
     width: 100%; 
         } 
         .header { background-color: #004d00; color: white; text-align: center; padding: 10px; font-size: 20px; font-weight: bold; }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        .logo-img{
+            height: auto;
+            width: 80px;
+        }
         .highlight { background-color: #90ee90; padding: 5px; border-radius: 5px; }
         .imagem4 {.container {
             display: flex;
